@@ -1,0 +1,42 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/InikaBold.ttf");
+  font-family: "Inika";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/InterRegular.ttf");
+  font-family: "Inter";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/InterBold.ttf");
+  font-family: "Inter";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/InterSemiBold.ttf");
+  font-family: "Inter";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/IrishGroverRegular.ttf");
+  font-family: "Irish Grover";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/InterLight.ttf");
+  font-family: "Inter";
+  font-weight: 300;
+}
