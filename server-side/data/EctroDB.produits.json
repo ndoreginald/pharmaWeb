@@ -1,0 +1,252 @@
+[{
+  "_id": {
+    "$oid": "665935f50f34c33432600afd"
+  },
+  "libelle": "Aspirin",
+  "description": "Anti-inflammatory drug for pain relief",
+  "idCategorie": {
+    "$oid": "66592f420f34c33432600af1"
+  },
+  "prix": 6,
+  "quantite": 50,
+  "image": "https://medicinaonline.ae/cdn/shop/products/Aspirin-Protect-30_s.jpg?v=1612788945",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665936860f34c33432600b00"
+  },
+  "libelle": "Paracetamol",
+  "description": "Common pain reliever and fever reducer",
+  "idCategorie": {
+    "$oid": "66592f420f34c33432600af1"
+  },
+  "prix": 7,
+  "quantite": 100,
+  "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/22962135/3634764310.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665936e70f34c33432600b03"
+  },
+  "libelle": "Amoxicillin",
+  "description": "Antibiotic used to treat bacterial infections",
+  "idCategorie": {
+    "$oid": "66592f420f34c33432600af1"
+  },
+  "prix": 13,
+  "quantite": 20,
+  "image": "https://www.pyxuspharmaceuticals.com/wp-content/uploads/2022/12/AMOXICILLIN-SODIUM-INJECTION.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665937830f34c33432600b06"
+  },
+  "libelle": "Ibuprofen",
+  "description": "Anti-inflammatory drug for pain relief",
+  "idCategorie": {
+    "$oid": "66592f420f34c33432600af1"
+  },
+  "prix": 9,
+  "quantite": 30,
+  "image": "https://m.media-amazon.com/images/I/715cDkxlRPL._AC_UF1000,1000_QL80_.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665938060f34c33432600b09"
+  },
+  "libelle": "Cetirizine",
+  "description": "Antihistamine used for allergy relief",
+  "idCategorie": {
+    "$oid": "6659335a0f34c33432600af5"
+  },
+  "prix": 8,
+  "quantite": 40,
+  "image": "https://cdn.pim.mesoigner.fr/mesoigner/8ab8298f028e3e0f55c987a82d350f1f/mesoigner-thumbnail-1000-1000-inset/045/cetirizine-mylan-pharma-10-mg-comprime-pellicule-secable.png.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665938910f34c33432600b0c"
+  },
+  "libelle": "Omeprazole",
+  "description": "Used to treat gastroesophageal reflux disease",
+  "idCategorie": {
+    "$oid": "66592f630f34c33432600af3"
+  },
+  "prix": 15,
+  "quantite": 28,
+  "image": "https://najmipharma.com/wp-content/uploads/2021/02/Omeprazoles-Pour-Injection-40-mg.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665938cf0f34c33432600b0f"
+  },
+  "libelle": "Metformin",
+  "description": "Used to control blood sugar levels in type 2 diabetes",
+  "idCategorie": {
+    "$oid": "66592f630f34c33432600af3"
+  },
+  "prix": 10,
+  "quantite": 60,
+  "image": "https://www.poison.org/-/media/images/shared/articles/metformin.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659393c0f34c33432600b12"
+  },
+  "libelle": "Simvastatin",
+  "description": "Used to control high cholesterol",
+  "idCategorie": {
+    "$oid": "66592f630f34c33432600af3"
+  },
+  "prix": 12,
+  "quantite": 30,
+  "image": "https://cdn.shopify.com/s/files/1/1290/8299/products/Simvastatin_40mg_12pcs_groupcopy2.png?v=1603334832",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665939bf0f34c33432600b15"
+  },
+  "libelle": "Albuterol",
+  "description": "Inhaler used to treat asthma",
+  "idCategorie": {
+    "$oid": "665934640f34c33432600af8"
+  },
+  "prix": 14,
+  "quantite": 15,
+  "image": "https://savingsonmeds.com/wp-content/uploads/2019/09/Albuterol-HFA-Inhaler-Drug.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66593a280f34c33432600b18"
+  },
+  "libelle": "Hydrochlorothiazide",
+  "description": "Diuretic used to treat high blood pressure",
+  "idCategorie": {
+    "$oid": "66592f630f34c33432600af3"
+  },
+  "prix": 11,
+  "quantite": 15,
+  "image": "https://greenpharmacyonline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/0/0/00228282011_2.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66593a810f34c33432600b1b"
+  },
+  "libelle": "Hydrochlorothiazide",
+  "description": "Diuretic used to treat high blood pressure",
+  "idCategorie": {
+    "$oid": "66592f630f34c33432600af3"
+  },
+  "prix": 11,
+  "quantite": 15,
+  "image": "https://www.healthizalife.com/wp-content/uploads/2022/04/Lisinopril-and-Hydrochlorothiazide-Tablet-2.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66593c330f34c33432600b21"
+  },
+  "libelle": "Gabapentin",
+  "description": "Used to treat nerve pain and seizures",
+  "idCategorie": {
+    "$oid": "66592f630f34c33432600af3"
+  },
+  "prix": 9,
+  "quantite": 45,
+  "image": "https://www.lodivet.com/wp-content/uploads/2018/10/gabapentin-300mg.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66593dd40f34c33432600b24"
+  },
+  "libelle": "Lisinopril",
+  "description": "Used to treat nerve pain and seizures",
+  "idCategorie": {
+    "$oid": "665934640f34c33432600af8"
+  },
+  "prix": 9,
+  "quantite": 45,
+  "image": "https://www.camberpharma.com/wp-content/uploads/2022/09/LisinoprilBottles_2_5_500.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66593e870f34c33432600b27"
+  },
+  "libelle": "Levothyroxine",
+  "description": "Used to treat hypothyroidism",
+  "idCategorie": {
+    "$oid": "665934640f34c33432600af8"
+  },
+  "prix": 10,
+  "quantite": 100,
+  "image": "https://www.mountainside-medical.com/cdn/shop/products/Levothyroxine-sodium-for-injection-500-mcg.jpg?v=1600367399",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66593ef70f34c33432600b2a"
+  },
+  "libelle": "Atorvastatin",
+  "description": "Used to treat hypothyroidism",
+  "idCategorie": {
+    "$oid": "6659335a0f34c33432600af5"
+  },
+  "prix": 10,
+  "quantite": 100,
+  "image": "https://www.rosemontpharma.com/wp-content/uploads/2023/09/Image-Atorvastatin-Bottle-Carton.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66593ffddf4de474f47a6435"
+  },
+  "libelle": "Clopidogrel",
+  "description": "Used to treat hypothyroidism",
+  "idCategorie": {
+    "$oid": "665934810f34c33432600afa"
+  },
+  "prix": 14,
+  "quantite": 20,
+  "image": "https://southstardrug.com.ph/cdn/shop/products/45613.jpg?v=1706148618",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659781a5d40d868e178c1c4"
+  },
+  "libelle": "Doliprane 1000",
+  "description": "pour faire baisser la fièvre et/ou soulager les douleurs légères à modérées",
+  "idCategorie": {
+    "$oid": "66592f630f34c33432600af3"
+  },
+  "prix": 5,
+  "quantite": 98,
+  "image": "https://www.mon-pharmacien-conseil.com/10838-home_default/doliprane-1000mg-adulte-boite-de-8cps.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659799b5d40d868e178c1cf"
+  },
+  "libelle": "Doliprane 500",
+  "description": " pour faire baisser la fièvre et/ou soulager les douleurs légères à modérées ",
+  "idCategorie": {
+    "$oid": "66592f630f34c33432600af3"
+  },
+  "prix": 5,
+  "quantite": 100,
+  "image": "https://www.dolipraneliquiz-tabs.fr/dam/jcr:c9fcf601-23d0-4d8d-b5d5-6247b27717cc/Pack-Tabs-500-mg%20mob.webp",
+  "__v": 0
+}]

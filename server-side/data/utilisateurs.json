@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "65efb4cd6cfa9205f35fc87b"
+  },
+  "nom": "Dechateau foyou",
+  "password": "$2b$10$dThjf.fwBZ5JMphRMpaWa.kBW1z9O1P/CBWkudb8LXkDjCya1T4Nm",
+  "email": "dechateau@gmail.com",
+  "telephone": "+216 58 411 852",
+  "role": "user",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65efb5406cfa9205f35fc881"
+  },
+  "nom": "Germain",
+  "password": "$2b$10$YABpEuPR29xrJ/6aJymMnuntx.3XIvNXfxJZpa9l3Af7BsGGdaZr.",
+  "email": "admin",
+  "telephone": "+216 5",
+  "role": "user",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65efb5586cfa9205f35fc883"
+  },
+  "nom": "Parker",
+  "password": "$2b$10$rrviCDBfcexT4lta9UoPpu6PubRjHFKqZlGtfQbUJWz.gTpc/jX5S",
+  "email": "admin1",
+  "telephone": "54545454",
+  "role": "user",
+  "__v": 0
+}]

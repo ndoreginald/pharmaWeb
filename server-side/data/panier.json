@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "65f2dd68f3522c0c479a114d"
+  },
+  "idUtilisateur": {
+    "$oid": "65efb4cd6cfa9205f35fc87b"
+  },
+  "produits": [
+    {
+      "$oid": "65f2dba96d11a9d713b36787"
+    },
+    {
+      "$oid": "65f2dba96d11a9d713b36787"
+    },
+    {
+      "$oid": "65f2dbbf6d11a9d713b36789"
+    },
+    {
+      "$oid": "65f2dba96d11a9d713b36787"
+    },
+    {
+      "$oid": "65f2dba96d11a9d713b36787"
+    },
+    {
+      "$oid": "65f2dba96d11a9d713b36787"
+    },
+    {
+      "$oid": "65f2dba96d11a9d713b36787"
+    }
+  ],
+  "__v": 18
+}]

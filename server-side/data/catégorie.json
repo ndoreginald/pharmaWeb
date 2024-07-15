@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "65efbaaa655aeb3204033df5"
+  },
+  "nom": "Solution Acquese",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f1a1ee07375bf44b0160da"
+  },
+  "nom": "Solution  z",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f1a1f407375bf44b0160dc"
+  },
+  "nom": "Solution  p",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f393b9812ccb603b0c3433"
+  },
+  "nom": "Boisson Gazeuse",
+  "__v": 0
+}]

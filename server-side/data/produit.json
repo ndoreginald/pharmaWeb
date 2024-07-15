@@ -1,0 +1,120 @@
+[{
+  "_id": 1,
+  "name": "Aspirin",
+  "price": 6,
+  "quantity": 50,
+  "description": "Anti-inflammatory drug for pain relief",
+  "img": "https://example.com/images/ibuprofen.jpg"
+},
+{
+  "_id": 2,
+  "name": "Paracetamol",
+  "price": 7,
+  "quantity": 100,
+  "description": "Common pain reliever and fever reducer",
+  "img": "https://example.com/images/paracetamol.jpg"
+},
+{
+  "_id": 3,
+  "name": "Paracetamol",
+  "price": 7,
+  "quantity": 100,
+  "description": "Common pain reliever and fever reducer",
+  "img": "https://example.com/images/paracetamol.jpg"
+},
+{
+  "_id": 4,
+  "name": "Amoxicillin",
+  "price": 13,
+  "quantity": 20,
+  "description": "Antibiotic used to treat bacterial infections",
+  "img": "https://example.com/images/amoxicillin.jpg"
+},
+{
+  "_id": 5,
+  "name": "Cetirizine",
+  "price": 8,
+  "quantity": 40,
+  "description": "Antihistamine used for allergy relief",
+  "img": "https://example.com/images/cetirizine.jpg"
+},
+{
+  "_id": 6,
+  "name": "Omeprazole",
+  "price": 15,
+  "quantity": 28,
+  "description": "Used to treat gastroesophageal reflux disease",
+  "img": "https://example.com/images/omeprazole.jpg"
+},
+{
+  "_id": 7,
+  "name": "Metformin",
+  "price": 10,
+  "quantity": 60,
+  "description": "Used to control blood sugar levels in type 2 diabetes",
+  "img": "https://example.com/images/metformin.jpg"
+},
+{
+  "_id": 8,
+  "name": "Simvastatin",
+  "price": 12,
+  "quantity": 30,
+  "description": "Used to control high cholesterol",
+  "img": "https://example.com/images/simvastatin.jpg"
+},
+{
+  "_id": 9,
+  "name": "Albuterol",
+  "price": 14,
+  "quantity": 15,
+  "description": "Inhaler used to treat asthma",
+  "img": "https://example.com/images/albuterol.jpg"
+},
+{
+  "_id": 10,
+  "name": "Hydrochlorothiazide",
+  "price": 11,
+  "quantity": 15,
+  "description": "Diuretic used to treat high blood pressure",
+  "img": "https://example.com/images/hydrochlorothiazide.jpg"
+},
+{
+  "_id": 11,
+  "name": "Gabapentin",
+  "price": 17,
+  "quantity": 90,
+  "description": "Used to treat nerve pain and seizures",
+  "img": "https://example.com/images/gabapentin.jpg"
+},
+{
+  "_id": 12,
+  "name": "Lisinopril",
+  "price": 9,
+  "quantity": 45,
+  "description": "Used to treat high blood pressure and heart failure",
+  "img": "https://example.com/images/lisinopril.jpg"
+},
+{
+  "_id": 13,
+  "name": "Levothyroxine",
+  "price": 10,
+  "quantity": 100,
+  "description": "Used to treat hypothyroidism",
+  "img": "https://example.com/images/levothyroxine.jpg"
+},
+{
+  "_id": 14,
+  "name": "Atorvastatin",
+  "price": 13,
+  "quantity": 30,
+  "description": "Used to treat high cholesterol",
+  "img": "https://example.com/images/atorvastatin.jpg"
+},
+{
+  "_id": 15,
+  "name": "Clopidogrel",
+  "price": 14,
+  "quantity": 20,
+  "description": "Used to prevent strokes and heart attacks",
+  "img": "https://example.com/images/clopidogrel.jpg"
+}]

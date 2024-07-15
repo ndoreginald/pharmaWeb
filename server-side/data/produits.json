@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "65f2dba96d11a9d713b36787"
+  },
+  "libelle": "Saida Gauffre Chaocolat",
+  "description": "Gauffres au chocalt",
+  "idCategorie": {
+    "$oid": "65efbacc655aeb3204033df9"
+  },
+  "prix": 1800,
+  "quantite": 15,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f2dbbf6d11a9d713b36789"
+  },
+  "libelle": "Saida Gauffre Vanille",
+  "description": "Gauffres à la vanille",
+  "idCategorie": {
+    "$oid": "65efbacc655aeb3204033df9"
+  },
+  "prix": 1800,
+  "quantite": 15,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f2dbf56d11a9d713b3678b"
+  },
+  "libelle": "Don'Up",
+  "description": "Yaourt crème",
+  "idCategorie": {
+    "$oid": "65f1a1ee07375bf44b0160da"
+  },
+  "prix": 1250,
+  "quantite": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f2dc166d11a9d713b3678d"
+  },
+  "libelle": "Delice",
+  "description": "Yaourt super crème",
+  "idCategorie": {
+    "$oid": "65f1a1ee07375bf44b0160da"
+  },
+  "prix": 450,
+  "quantite": 100,
+  "__v": 0
+}]

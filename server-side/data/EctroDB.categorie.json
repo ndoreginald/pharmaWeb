@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "66592f420f34c33432600af1"
+  },
+  "nom": "Anti-inflammatoire",
+  "description": "Ils sont actifs contre l'inflammation ",
+  "produits": [
+    {
+      "$oid": "665935f50f34c33432600afd"
+    },
+    {
+      "$oid": "665936860f34c33432600b00"
+    },
+    {
+      "$oid": "665936e70f34c33432600b03"
+    },
+    {
+      "$oid": "665937830f34c33432600b06"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66592f630f34c33432600af3"
+  },
+  "nom": "Antalgique",
+  "description": "Ils agissent contre la douleur",
+  "produits": [
+    {
+      "$oid": "665938910f34c33432600b0c"
+    },
+    {
+      "$oid": "665938cf0f34c33432600b0f"
+    },
+    {
+      "$oid": "6659393c0f34c33432600b12"
+    },
+    {
+      "$oid": "66593a280f34c33432600b18"
+    },
+    {
+      "$oid": "66593a810f34c33432600b1b"
+    },
+    {
+      "$oid": "66593c330f34c33432600b21"
+    },
+    {
+      "$oid": "6659781a5d40d868e178c1c4"
+    },
+    {
+      "$oid": "6659799b5d40d868e178c1cf"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6659335a0f34c33432600af5"
+  },
+  "nom": "Allergologie",
+  "description": "Contre les allergies",
+  "produits": [
+    {
+      "$oid": "665938060f34c33432600b09"
+    },
+    {
+      "$oid": "66593ef70f34c33432600b2a"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665934640f34c33432600af8"
+  },
+  "nom": "Cardiologie et angélologie",
+  "description": "Contre les allergies",
+  "produits": [
+    {
+      "$oid": "665939bf0f34c33432600b15"
+    },
+    {
+      "$oid": "66593dd40f34c33432600b24"
+    },
+    {
+      "$oid": "66593e870f34c33432600b27"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665934810f34c33432600afa"
+  },
+  "nom": "Dermathologie",
+  "description": "Pour les problemes de peau",
+  "produits": [
+    {
+      "$oid": "66593ffddf4de474f47a6435"
+    }
+  ],
+  "__v": 0
+}]
