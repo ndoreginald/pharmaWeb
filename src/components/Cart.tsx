@@ -2,9 +2,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 import Navbar from '../layout/Navbar';
 import Footer from '../layout/Footer';
+import CheckOut from './CheckOut';
+import { useNavigate  } from 'react-router-dom';
+
 
 
 function Cart() {
+
+    const navigate = useNavigate();
+
+    const handleProceedToCheckout = () => {
+        navigate('/checkout',{ state: { cartItems, subtotal, shipping, total }});
+    };
 
     const [cartItems, setCartItems] = useState(() => {
         const savedCartItems = localStorage.getItem('cartItems');
@@ -35,6 +44,23 @@ function Cart() {
     return (
         <>
             <Navbar />
+             {/*-- Breadcrumb Start --*/}
+                <div className="container-fluid">
+                    <div className="row px-xl-5">
+                        <div className="col-10">
+                            <nav className="breadcrumb bg-light mb-30">
+                                <a className="breadcrumb-item text-dark" href="/">Home</a>
+                                <a className="breadcrumb-item text-dark" href="/shop">Shop</a>
+                                <span className="breadcrumb-item active">panier</span>
+                            </nav>
+                        </div>
+                        <div className="col-2">
+                        <button className="btn btn-block btn-success font-weight-bold  py-2" onClick={() => navigate(`/command/`)}
+                            >check Commad List</button> 
+                        </div>
+                    </div>
+                </div>
+             {/*-- Breadcrumb Start --*/}
 
             <div className="container-fluid">
                 <div className="row px-xl-5">
@@ -111,17 +137,20 @@ function Cart() {
                                     <h5>${total}</h5>
                                 </div>
                                 <a href="/checkout">
-                                    <button className="btn btn-block btn-primary font-weight-bold my-3 py-3">
+                                    <button className="btn btn-block btn-primary font-weight-bold my-3 py-3" onClick={handleProceedToCheckout}>
                                         Proceed To Checkout
                                     </button>
                                 </a>
                             </div>
                         </div>
+                       
                     </div>
                 </div>
             </div>
 
             <Footer />
+
+           
         </>
     );
 }

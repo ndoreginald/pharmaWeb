@@ -35,17 +35,15 @@ import Admin from './component_admin/Admin.tsx';
 import EditProduit from './component_admin/EditProduit.tsx';
 import EditCategorie from './component_admin/EditCategorie.tsx';
 import EditProduit1 from './component_admin/EditProduit1.tsx';
-import { CartProvider } from './components/CartContext.tsx';
-
-//import "./styles/tailwind.css";
-//import "./styles/index.css";
-//import "./styles/font.css";
+import CommandList from './component_admin/CommandList.tsx';
+import CommandPage from './components/CommandPage.tsx';
+import ContactAdmin from './component_admin/ContactAdmin.tsx';
 
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <>
-  <CartProvider>
+  
   <Router>
     <Routes>
       <Route path="/" element={<HomePage />} />
@@ -63,6 +61,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Route path="/about" element={<AboutPage />} />
       <Route path="/chatbox" element={<ChatPage />} />
       <Route path="/promo" element={<PromoPage />} />
+      <Route path="/command" element={<CommandPage />} />
       <Route path="*" element={<ErrorPage />} />
       <Route path="/categorie/:id" element={<CategorieShopPage/>}/>
       <Route path="/admin" element={<Admin/>}/>
@@ -74,10 +73,12 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Route path='/admin/editProduct/:id' element={<EditProduit/>}/>
       <Route path='/admin/editProduct1/:id' element={<EditProduit1/>}/>
       <Route path='/admin/editCategorie/:id' element={<EditCategorie/>}/>
+      <Route path='/admin/command' element={<CommandList/>}/>
+      <Route path='/admin/contact' element={<ContactAdmin/>}/>
       
     </Routes>
   </Router>
-  </CartProvider>
+
   </>
 );
 //<Navbar />

@@ -11,6 +11,11 @@ import FolderIcon from '@mui/icons-material/Folder';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { Link } from 'react-router-dom';
+import { ReceiptLong } from '@mui/icons-material';
+import {Category} from '@mui/icons-material';
+import {PostAdd} from '@mui/icons-material';
+import {CreateNewFolder} from '@mui/icons-material';
+import {MailOutline} from '@mui/icons-material';
 
 const drawerWidth = 240;
 
@@ -19,11 +24,13 @@ const menuItems = [
   
   { text: 'Users', icon: <PeopleIcon />, path: '/admin/userList' },
   { text: 'Categorie', icon: <FolderIcon />, path: '/admin/categories' },
-  { text: 'Produits', icon: <BarChartIcon />, path: '/admin/products' },
-  { text: 'Ajouter Categorie', icon: <ListAltIcon />, path: '/admin/categorieForm' },
-  { text: 'Ajouter Produit', icon: <ListAltIcon />, path: '/admin/AddProduct' },
+  { text: 'Produits', icon: <ListAltIcon />, path: '/admin/products' },
+  { text: 'Commandes', icon: <ReceiptLong />, path: '/admin/command' },
+  { text: 'Ajouter Categorie', icon: <CreateNewFolder />, path: '/admin/categorieForm' },
+  { text: 'Ajouter Produit', icon: <PostAdd />, path: '/admin/AddProduct' },
+  { text: 'Messages', icon: <MailOutline />, path: '/admin/contact' },
   { text: 'Logout', icon: <LogoutIcon />, path: '/logout' },
-  // Ajoutez d'autres éléments de menu ici si nécessaire
+  // Ajoutez d'autres éléments de menu ici si nécessaire ShoppingCartIcon 
 ];
 
 const Sidebar: React.FC = () => {

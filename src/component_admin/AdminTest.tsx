@@ -1,149 +1,81 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react'
 
-function AdminTest () {
- 
-const [categories, setCategories] = useState([]);
-  const [formData, setFormData] = useState({
-      libelle: '',
-      description: '',
-      idCategorie: '',
-      prix: 0,
-      quantite: 0,
-      image: ''
-  });
+import { Pie, Line, Bar } from 'react-chartjs-2';
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+  ArcElement,
+  PointElement,
+  LineElement,
+} from 'chart.js';
 
-  useEffect(() => {
-      // Fetch categories from the server
-      fetch(`http://localhost:3001/pharmaDB/categorie/`)
-      .then(response => response.json())
-      .then(data => {
-        if (data) {
-            setCategories(data);
-        }
-      })
-      .catch(error => console.error('Erreur lors de la récupération des données :', error)); 
-}, []);
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+  ArcElement,
+  PointElement,
+  LineElement
+);
 
-  const handleChange = (e: { target: { name: any; value: any; }; }) => {
-      const { name, value } = e.target;
-      setFormData(prevState => ({
-          ...prevState,
-          [name]: value
-      }));
-  };
+const chartData = {
+  pie: {
+    labels: ['Red', 'Blue', 'Yellow'],
+    datasets: [
+      {
+        data: [300, 50, 100],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+      },
+    ],
+  },
+  line: {
+    labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+    datasets: [
+      {
+        label: 'Sales',
+        data: [65, 59, 80, 81, 56, 55, 40],
+        fill: false,
+        backgroundColor: '#36A2EB',
+        borderColor: '#36A2EB',
+      },
+    ],
+  },
+  bar: {
+    labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+    datasets: [
+      {
+        label: 'Tasks Completed',
+        data: [12, 19, 3, 5, 2, 3],
+        backgroundColor: 'rgba(75,192,192,0.4)',
+        borderColor: 'rgba(75,192,192,1)',
+        borderWidth: 1,
+      },
+    ],
+  },
+};
 
-  const handleSubmit = async (e: { preventDefault: () => void; }) => {
-      e.preventDefault();
-      try {
-          const response = await axios.post(`http://localhost:3001/pharmaDB/produit/`, formData);
-          console.log('Produit ajouté avec succès:', response.data);
-          // Réinitialiser le formulaire
-          setFormData({
-              libelle: '',
-              description: '',
-              idCategorie: '',
-              prix: 0,
-              quantite: 0,
-              image: ''
-          });
-      } catch (error) {
-          console.error('There was an error adding the product!', error);
-      }
-  };
+type ChartProps = {
+  type: 'pie' | 'line' | 'bar';
+};
 
-    return (
-      <>
-        <div className='container bg-light'>
-    <div className="welcome-page">
-      <div className="logo">
-        <img src="img/img_ellipse_25.png"
-                        alt=""
-                        className="rounded-circle w-full object-cover mt-5 thick-green-border"
-                         />
-      </div>
-      <h1 className="title">Formulaire </h1>
-      <p className="subtitle">saisir les informations du nouveau produit</p>
-      <div className="input-container">
-          <form onSubmit={handleSubmit}>
-            <div>
-                <label htmlFor="libelle">Libellé :</label>
-                <input className="form-control"
-                    type="text" 
-                    id="libelle" 
-                    name="libelle" 
-                    value={formData.libelle} 
-                    onChange={handleChange} 
-                    required 
-                />
-            </div>
-            <div>
-                <label htmlFor="description">Description :</label>
-                <textarea className="form-control"
-                    id="description" 
-                    name="description" 
-                    value={formData.description} 
-                    onChange={handleChange} 
-                    required 
-                />
-            </div>
-            <div>
-                <label htmlFor="idCategorie">Catégorie :</label>
-                <select className="form-control"
-                    id="idCategorie" 
-                    name="idCategorie" 
-                    value={formData.idCategorie} 
-                    onChange={handleChange} 
-                    required
-                >
-                    <option value="">Sélectionner une catégorie</option>
-                    {categories.map(category => (
-                        <option key={category._id} value={category._id}>
-                            {category.nom}
-                        </option>
-                    ))}
-                </select>
-            </div>
-            <div>
-                <label htmlFor="prix">Prix :</label>
-                <input className="form-control"
-                    type="number" 
-                    id="prix" 
-                    name="prix" 
-                    value={formData.prix} 
-                    onChange={handleChange} 
-                    required 
-                />
-            </div>
-            <div>
-                <label htmlFor="quantite">Quantité :</label>
-                <input className="form-control"
-                    type="number" 
-                    id="quantite" 
-                    name="quantite" 
-                    value={formData.quantite} 
-                    onChange={handleChange} 
-                    required 
-                />
-            </div>
-            <div>
-                <label htmlFor="image">Image URL :</label>
-                <input className="form-control"
-                    type="text" 
-                    id="image" 
-                    name="image" 
-                    value={formData.image} 
-                    onChange={handleChange} 
-                />
-            </div>
-            <button type="submit" className="btn btn-primary mt-3">Ajouter le produit</button>
-        </form>
-      </div>
-    </div>
-    </div>
-      </>
-    )
-  
+function AdminTest({ type }: ChartProps) {
+  switch (type) {
+    case 'pie':
+      return <Pie data={chartData.pie} />;
+    case 'line':
+      return <Line data={chartData.line} />;
+    case 'bar':
+      return <Bar data={chartData.bar} />;
+    default:
+      return null;
+  }
 }
 
-export default AdminTest
+export default AdminTest;
